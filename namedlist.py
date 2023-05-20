@@ -40,7 +40,7 @@ import copy as _copy
 import operator as _operator
 import itertools as _itertools
 from keyword import iskeyword as _iskeyword
-import collections as _collections
+import collections.abc as _collections
 import abc as _abc
 
 _PY2 = _sys.version_info[0] == 2
